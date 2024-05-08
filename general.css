@@ -1,0 +1,35 @@
+li .navbutton
+{
+    float: left;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.navbar
+{
+    background-color:rgb(252, 206, 139);
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    border: 3px solid rgb(0,0,0);
+    float: center;
+}
+
+.navbutton
+{
+    
+    text-align: center;
+    font-size: 42px;
+    transition-duration: .4s;
+    margin: 5 30;
+    width: "30%";
+    display: inline;
+   
+
+}
+.navbutton:hover
+{
+    background-color: grey;
+    color:gold;
+}
