@@ -7,7 +7,7 @@ li .navbutton
 
 .navbar
 {
-    background-color:rgb(252, 206, 139);
+    background-color:darkred;
     overflow: hidden;
     position: sticky;
     position: -webkit-sticky;
@@ -22,8 +22,8 @@ li .navbutton
     text-align: center;
     font-size: 30px;
     transition-duration: .4s;
-    margin: 5 30;
-    width: "30%";
+    margin: 5 5;
+    width: "10%";
     display: inline;
    
 
