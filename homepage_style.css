@@ -1,8 +1,16 @@
 .container {
     display: flex;
     align-items: center; 
-    column-gap: 5px;
+    column-gap: 4vw;
+    margin-left: 2vw;
+    margin-right:2vw;
+    border: 1vw solid rgb(91, 55, 62);
    }
+
+.img
+{
+    border-right: .5vw dashed rgb(91, 55, 62);
+}
 
 h1 {
     font-family: cambria;

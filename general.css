@@ -8,6 +8,7 @@ rect
     display: inline;
 }
 
+
 a .navbutton 
 {
     float: left;
@@ -23,13 +24,14 @@ a .navbutton
     top:0;
     border: .2em solid rgb(167, 165, 165);
     float: center;
+    margin-bottom: 3vw;
 }
 
 .navbutton
 {
     
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.9vw;
     transition-duration: .4s;
     margin: 3em .9em;
     display: inline;
@@ -42,4 +44,6 @@ a .navbutton
     background-color: grey;
     color:gold;
 }
+
+
 
