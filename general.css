@@ -1,18 +1,27 @@
-li .navbutton
+
+
+rect
+{
+    fill: rgb(167, 165, 165);
+    stroke-width: .01vw;
+    stroke: rgb(167, 165, 165);
+    display: inline;
+}
+
+a .navbutton 
 {
     float: left;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar
 {
-    background-color:darkred;
+    background-color:rgb(91, 55, 62);
     overflow: hidden;
     position: sticky;
     position: -webkit-sticky;
     top:0;
-    border: 3px solid rgb(0,0,0);
+    border: .2em solid rgb(167, 165, 165);
     float: center;
 }
 
@@ -20,16 +29,17 @@ li .navbutton
 {
     
     text-align: center;
-    font-size: 30px;
+    font-size: 3vw;
     transition-duration: .4s;
-    margin: 5 5;
-    width: "10%";
+    margin: 3em .9em;
     display: inline;
-   
-
+    color: white;
+    text-decoration: none;
 }
+
 .navbutton:hover
 {
     background-color: grey;
     color:gold;
 }
+
