@@ -9,7 +9,7 @@ rect
 }
 
 
-a .navbutton 
+a, .navbutton 
 {
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,13 +31,12 @@ a .navbutton
 {
     
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.49vw;
     transition-duration: .4s;
     display: inline;
     color: white;
     text-decoration: none;
-    border-left: .1em, solid white;
-    padding: 1.4305em;
+    padding: 2.4%;
 }
 
 .navbutton:hover
@@ -46,5 +45,12 @@ a .navbutton
     color:gold;
 }
 
-
+.profile_pic
+{
+    float:right;
+    width: 20%;
+    height: 30%;
+    margin: 1vw;
+    display:block;
+}
 

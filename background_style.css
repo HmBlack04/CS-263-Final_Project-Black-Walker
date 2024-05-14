@@ -2,18 +2,35 @@
 body
 {
     background-color: rgb(39, 40, 35);
-    color: rgb(202, 232, 238);
-    font-size: 100%;
-    
+    font-size: 1em;
 }
 
 p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Veranda, Arial, Georgia;
     margin-right: 30%;
+    color: cornsilk;
+    line-height: 2em;
+    letter-spacing: .1em;
 }
 
 h1
 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 7vw;
+    color: rgb(202, 232, 238);
+    border-top: .1em solid rgb(202, 232, 238);
+    border-bottom: .1em solid rgb(202, 232, 238);
+    margin:.5vw;
+
+}
+h2
+{
+    font-size: 5vw;
+    color:rgb(211, 170, 170)
+}
+
+h3, h4, h5, h6
+{
+    font-size: 3vw;
+    color:rgb(211, 170, 170)
 }
