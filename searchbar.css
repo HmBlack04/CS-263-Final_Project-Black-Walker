@@ -9,3 +9,9 @@
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+
+  .search-bar
+  {
+    background-color: cornsilk;
+    border-radius: 1em;
+  }

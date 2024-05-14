@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>About Us</title>
+
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="homepage_style.css">
         <link rel="stylesheet" href="background_style.css">
+        <link rel="stylesheet" href="searchbar.css">
     </head>
 
     <body>
         <header>
-            <h1>Our Website title</h1>
+            <h1>Toeing the Thin Blue Line</h1>
         </header>
         <nav class="navbar">
             <a class="navbutton" href="homepage.html"><strong>Home</strong></a></li>
@@ -17,6 +20,10 @@
             <a class="navbutton" href="ethical_lenses.html"><strong>The Ethics</strong></a></li>
             <a class="navbutton" href="solutions.html"><strong>Solutions</strong></a></li>
             <a class="navbutton" href="about.html"><strong>About</strong></a></li>
+            <div class="search-container">
+                <input type="text" id="search_input" placeholder="Search.." name="search" class="search-bar">
+                <button type="submit" onclick=Search() class="search-bar"><img src="search.svg" alt="search icon" width="inherit" height="inherit"></button>
+            </div>
         </nav>
 
         <img src="Henry.svg" class="profile_pic" alt="Image of the Co Creator Henry" usemap="#profileHB">
@@ -38,6 +45,8 @@
         <p>Lau, Tim. “Predictive Policing Explained.” Brennan Center for Justice, 1 Apr. 2020, www.brennancenter.org/our-work/research-reports/predictive-policing-explained. Accessed 17 Apr. 2024. </p>
         <p>Velasquez, Manuel, et al. "A Framework for Ethical Decision-Making". Santa Clara University, 8 Nov. 2021, https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/.</p>
         <p>Yale Law, 2020, pp. 1–6, Algorithms in Policing: An Investigative Packet. </p>
+        
+        <script src="search.js"></script>
     </body>
 
 </html>

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Our Solutions</title>
+
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="homepage_style.css">
         <link rel="stylesheet" href="background_style.css">
+        <link rel="stylesheet" href="searchbar.css">
     </head>
 
     <body>
         <header>
-            <h1>Our Website title</h1>
+            <h1>Toeing the Thin Blue Line</h1>
         </header>
         <nav class="navbar">
             <a class="navbutton" href="homepage.html"><strong>Home</strong></a></li>
@@ -17,13 +20,20 @@
             <a class="navbutton" href="ethical_lenses.html"><strong>The Ethics</strong></a></li>
             <a class="navbutton" href="solutions.html"><strong>Solutions</strong></a></li>
             <a class="navbutton" href="about.html"><strong>About</strong></a></li>
+            <div class="search-container">
+                <input type="text" id="search_input" placeholder="Search.." name="search" class="search-bar">
+                <button type="submit" onclick=Search() class="search-bar"><img src="search.svg" alt="search icon" width="inherit" height="inherit"></button>
+            </div>
         </nav>
+
         <h2>Solutions</h2>
         <p>Here are a few changes that can be made that will help with the issues mentioned:</p>
         <h3>Everybody must be better informed</h3>
         <p>The first and most important step towards finding an ethical solution for everybody is spreading information about this topic. There are countless people affected by this issue that don’t fully understand what these algorithms are doing, and this must change in order to find a good solution.</p>
         <h4>Decisions must be made by humans</h4>
         <p>Algorithms should not be allowed to make the final decisions on matters that affect people’s lives. As demonstrated throughout this website, there is too much potential for error and a lack of care / awareness of the impact. Therefore, it should be agreed upon that even if algorithms are used to gain information, the final decisions on important matters should be made by humans, using all the information at their disposal.</p>
+    
+        <script src="search.js"></script>
     </body>
 
 </html>

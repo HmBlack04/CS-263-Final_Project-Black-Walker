@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Ethical Lenses of the problem</title>
+
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="homepage_style.css">
         <link rel="stylesheet" href="background_style.css">
+        <link rel="stylesheet" href="searchbar.css">
     </head>
 
     <body>
         <header>
-            <h1>Our Website title</h1>
+            <h1>Toeing the Thin Blue Line</h1>
         </header>
         <nav class="navbar">
             <a class="navbutton" href="homepage.html"><strong>Home</strong></a></li>
@@ -17,7 +20,12 @@
             <a class="navbutton" href="ethical_lenses.html"><strong>The Ethics</strong></a></li>
             <a class="navbutton" href="solutions.html"><strong>Solutions</strong></a></li>
             <a class="navbutton" href="about.html"><strong>About</strong></a></li>
+            <div class="search-container">
+                <input type="text" id="search_input" placeholder="Search.." name="search" class="search-bar">
+                <button type="submit" onclick=Search() class="search-bar"><img src="search.svg" alt="search icon" width="inherit" height="inherit"></button>
+            </div>
         </nav>
+
         <h2>Ethical Lenses</h2>
         <p>In order to make decisions about how these algorithms should be used, it can be helpful to examine the situation through different ethical lenses. Here are a few popular ones, as described by Santa Clara University:</p>
         <p><strong>Rights</strong> - What action best protects the moral rights of everybody involved?</p>
@@ -28,6 +36,7 @@
         <p><strong>Care Ethics</strong> - What action reflects care for each individual on a more holistic level?</p>
         <p>For more information on these lenses, visit this link:</p>
         <a href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">A Framework for Ethical Decision-Making (Santa Clara University)</a>
+        <script src="search.js"></script>
     </body>
 
 </html>

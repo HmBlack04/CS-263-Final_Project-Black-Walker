@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>The Problems</title>
+
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="homepage_style.css">
         <link rel="stylesheet" href="background_style.css">
+        <link rel="stylesheet" href="searchbar.css">
     </head>
 
     <body>
-        <header role="Website Title">
-            <h1>Our Website title</h1>
+        <header>
+            <h1>Toeing the Thin Blue Line</h1>
         </header>
         <nav class="navbar">
             <a class="navbutton" href="homepage.html"><strong>Home</strong></a></li>
@@ -17,7 +20,12 @@
             <a class="navbutton" href="ethical_lenses.html"><strong>The Ethics</strong></a></li>
             <a class="navbutton" href="solutions.html"><strong>Solutions</strong></a></li>
             <a class="navbutton" href="about.html"><strong>About</strong></a></li>
+            <div class="search-container">
+                <input type="text" id="search_input" placeholder="Search.." name="search" class="search-bar">
+                <button type="submit" onclick=Search() class="search-bar"><img src="search.svg" alt="search icon" width="inherit" height="inherit"></button>
+            </div>
         </nav>
+
         <h2>Issues</h2>
         <h3>Bias</h3>
         <p>While the concept of using algorithms in policing may seem unbiased because algorithms are just running numbers, the unfortunate truth is that these algorithms often only compound biases. This is because algorithms learn from previous crime data, and this previous crime data is already infected with countless biased outcomes. In other words, the algorithms are trained not necessarily to come up with the most correct answer, but instead to most accurately recreate past answers. Since these past answers often involve bias, this bias is trained into the algorithm, even if factors such as race and gender are removed from the dataset.
@@ -27,6 +35,8 @@
         </p>
         <h5>Costliness</h5>
         <p>These algorithms are usually very expensive to purchase, with varying but often low levels of effectiveness in practice. This brings up the question of whether the resources being allocated in this area could be better distributed in order to truly enact a positive change.</p>
+        <script src="search.js"></script>
+    
     </body>
 
 </html>

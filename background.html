@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Background Information</title>
+
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="homepage_style.css">
         <link rel="stylesheet" href="background_style.css">
+        <link rel="stylesheet" href="searchbar.css">
     </head>
+
     <body>
         <header>
-            <h1>Our Website title</h1>
+            <h1>Toeing the Thin Blue Line</h1>
         </header>
         <nav class="navbar">
             <a class="navbutton" href="homepage.html"><strong>Home</strong></a></li>
@@ -16,6 +20,10 @@
             <a class="navbutton" href="ethical_lenses.html"><strong>The Ethics</strong></a></li>
             <a class="navbutton" href="solutions.html"><strong>Solutions</strong></a></li>
             <a class="navbutton" href="about.html"><strong>About</strong></a></li>
+            <div class="search-container">
+                <input type="text" id="search_input" placeholder="Search.." name="search" class="search-bar">
+                <button type="submit" onclick=Search() class="search-bar"><img src="search.svg" alt="search icon" width="inherit" height="inherit"></button>
+            </div>
         </nav>
         <h2>Background</h2>
         <p>Predictive policing is a term used to describe complex algorithms created by private companies and used by police agencies in order to predict when or where crimes will happen based on past data. These algorithms often use machine learning (a field of artificial intelligence) in order to become more accurate. </p>
@@ -27,5 +35,6 @@
         <p>Person-based algorithms take in the existing crime data of individual citizens to predict who is most likely to commit a crime. One example of a person-based algorithm is SSL, or the Strategic Subject List. Used by the Chicago Police Department and then discontinued, this algorithm takes in eight data points about individual citizens, all of which involve previous criminal activity, to assign a risk score to each citizen (Chicago Data Portal).
         </p>
         <p>Pattern recognition algorithms take in existing crime data and try to find patterns and make connections between them in order to find the source, i.e. the criminal or group of criminals responsible. One example of a pattern recognition algorithm is Patternizr, an algorithm used by the NYPD and still in use today. Patternizr is trained on 10 years of crime data with patterns that have already been identified, while removing data points such as gender and race (Holak).</p>
+        <script src="search.js"></script>
     </body>
 </html>
