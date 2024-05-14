@@ -1,3 +1,5 @@
+Henry Black and Dashiel Walker
+
 This is our explanation for how we have met each of the criteria.
 Usability: Our navigation bar makes it easy for users to get anywhere in our website with just a click. Our pages are appropriately titled so that it is easy to tell where to find information, and in the rare event that it is confusing, we added a search bar. This isn't completely working yet, but our page is still very easy to use.
 Educational value: We have a lot of information displayed in a digestible manner for anybody looking at our website. The arrangement of this information makes sense for our personas because it doesn't assume a baseline knowledge of computer science or machine learning, but also doesn't treat users like they are completely uneducated. Additionally, although we want our personas to take away the dangers of predictive policing, we have structured our information and our rhetoric such that supporters of predictive policing will not be immediately turned away, and will still be curious to read more.
